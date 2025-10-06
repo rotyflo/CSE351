@@ -1,0 +1,17 @@
+******************************
+* Lab 1a Synthesis Questions *
+******************************
+Name(s): Robert Flores 
+NetID(s): rotyflo
+
+-----------------------------------------------------------
+1) Steps: In order to get the difference in bytes between two addresses, the addresses can be subtracted from one another using binary subtraction, BUT they must first EACH be cast to a long data type. Otherwise the subtraction results in other operations or errors, such as evaluating number of a given data type that can be contained between the two addresses, or an error if we are subtracting pointers or arrays that don't contain the same data type. It is also important that we cast to a data type such as long so that the integrity of the address is maintained. A pointer is 8 bytes, so casting to a data type such as an int (4 bytes) would result in a corruption of addresses larger than 32 bits.
+
+-----------------------------------------------------------
+2) Explain: In swap_ints, if the parameters were both integers instead of pointers, then the function would create a copy of the original data when it was called as opposed to pointing to the data where it is located in memory, as happens when we use pointers. This would result in the integers not being swapped, but instead the copies of the original being swapped, resulting in no change to the original data.
+
+-----------------------------------------------------------
+3) Positive Impact(s) and Drawback/Limitation(s): I believe in top-down approaches to learning, where the highest level, most abstract concepts are covered first and then lower level concepts are introduced once the learner has a "lay of the land". Therefore, I think leaving the concept of pointers and other low-level concepts out of the intro series has been beneficial overall as it has kept me from getting lost in the weeds. That being said, I also believe that mastery of a topic can only happen given enough time. Keeping us from struggling with these concepts earlier in our programming education means that our battle with them is only just beginning. This means our ability to fully appreciate deeper topics that rely on these low-level concepts will take a little more time than if we had learned about pointers and the like early on.
+
+
+
