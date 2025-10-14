@@ -1,0 +1,26 @@
+******************************
+* Lab 1b Synthesis Questions *
+******************************
+Name(s): Robert Flores
+NetID(s): rotyflo
+
+
+-----------------------------------------------------------
+1) Benefit 1: With more bits assigned to the item ID, we would be able to store more types of items.
+
+   Benefit 2: With unsigned integer encoding used for the number of items, we would be able to store many more items than each bit representing a single item.
+
+   Drawback: Without bit-level representation of each item, we lose the spacial component of the original representation.
+
+   Preference & Justification: If I were a store manager, I would prefer to use my friend's method. I would imagine that at most stores, the ability to analyze your inventory spacially isn't a priority and I wouldn't want to be limited to an inventory of only 10 items of a certain type in a given section. I think my friend's solution reduces complexity and opens up options for tracking more inventory.
+
+-----------------------------------------------------------
+2) Difference? Y/N
+
+   Explain: In this program, there is a difference. We are using both unsigned shorts and unsigned longs frequently in this program. If you wanted to use one of these values to perform bitwise operations on an unsigned long (like the aisle), initializing y as an unsigned long and assigning it a value of -1 would be equal to 0xFFFFFFFFFFFFFFFF, whereas assigning it a value of 0xFFFFFFFF would be equal to 0x00000000FFFFFFFF. If y were an unsigned short, they would both be implicitly cast to the unsigned short data type and then 0xFFFFFFFF and -1 would result in the same value assignment to y.
+
+-----------------------------------------------------------
+3) Explain:
+
+   Considerations: Depending on how the sequence of operations performed by the computer, two numbers that should be equal could be represented differently at the binary-level when stored and operated on as a float. When choosing a threshold for rounding, it is important to take into consideration the resolution of the float at the highest expected range, since the granularity with which floats can be stored worsens as numbers get larger.
+
