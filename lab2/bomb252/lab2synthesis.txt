@@ -1,0 +1,31 @@
+*****************************
+* Lab 2 Synthesis Questions *
+*****************************
+Name(s): Robert Flores
+NetID(s): rotyflo
+
+
+-----------------------------------------------------------
+1) &value:  offset by 12 bytes
+   &array:  offset by 16 bytes
+-----------------------------------------------------------
+2) Init:   <fillArray+40>
+   Update: <fillArray+146>
+-----------------------------------------------------------
+3) String address: 0x4020a2
+   Part of memory: Literals
+   Assembly instruction address: <part_2+8>
+-----------------------------------------------------------
+4) Strategy + example: 
+
+I didn't know about the "layout split" command until the synthesis portion! I would suggest that and use of the "refresh" command after calls to functions. Also, I mostly used "ni" and only dipped into calls with "si" where necessary. Get a high-level overview of what is happening by using "ni" all the way until a function call, and then use "print $register" for pointer info and "x $register" to dereference. Then "ni" across the function and repeat the process.
+
+This was useful for seeing what was going into a function and coming out. For example, using "x /s $esi" at a function call showed what was expected in most functions, be it an input format or a specific string. Using "print $eax" immediately after a function call showed what was returned by that function.
+
+-----------------------------------------------------------
+5) Difficulty + why (past experience):
+
+I think the novelty of the experience was the most difficult aspect. With all of the Python and Java courses I've taken and the JavaScript that I've written before starting school, I was so used to thinking about code at a much higher level. Getting used to tracking values in registers and differentiating between looking at the address that a register stores and dereferencing the register to find the value stored at that address was tough. All that and the readability. That was hard, too. That being said, I enjoyed it!
+
+-----------------------------------------------------------
+
