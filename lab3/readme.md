@@ -1,4 +1,5 @@
 
+```
 Solutions
 
 --------------------------------------
@@ -62,3 +63,4 @@ CONVERT ASSEMBLY TO HEX (INJECTION CODE) USING GCC:
   19:	c3                   	ret
 
 ----------------------------------------
+```
