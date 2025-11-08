@@ -1,0 +1,26 @@
+*****************************
+* Lab 3 Synthesis Questions *
+*****************************
+Name(s): Robert Flores
+NetID(s): rotyflo
+
+
+-----------------------------------------------------------
+1) Explain: The return address to main (0x4015a9) gets corrupted when it is overwritten by the last element of the 15-item array (0x2c). This causes a segmentation fault since the program returns to an invalid address.
+
+
+
+-----------------------------------------------------------
+2) Minimum len to cause a segfault: 15
+   Step-by-step calculation: At <part_2+0>, 72 bytes are allocated on the stack. <part_2+14> points 16 bytes above rsp as the beginning of the array, leaving 56 bytes for the array. Given that the array is made up of integers, each item in the array is 4 bytes wide, stored contiguously in memory. Therefore, we take the amount of space allocated for the array and divided it by the width of each element in the array to find the max capacity. Then add 1 to find the minimum len for a segmentation fault. (ie. (56 / 4) + 1 = 15)
+
+
+-----------------------------------------------------------
+3) Hacker Reflection: I most "felt like a hacker" after successfully completing level 2. Using knowledge of assembly and the structure of the stack as well as tooling to convert the assembly into hex and then a string to be executed from the stack was all so cool. I really enjoyed the process because it felt like getting to apply what I've learned in this course to solve a puzzle or mystery.
+
+
+-----------------------------------------------------------
+4) Vulnerabilities and Security: While I've always known that people were able to hack computers, the level at which those exploits can be injected (the stack) is shocking. That being said, I do find comfort in learning things such as Linux's protections from executing code from the stack, although I'm sure there are many ways around that, too!
+
+
+-----------------------------------------------------------
