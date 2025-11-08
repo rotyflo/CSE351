@@ -11,25 +11,31 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~Msle0~/\<arr\>
+~Msle0~/\<section_count\>
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1759742221,,"wq"
-:q
-|2,0,1759741055,,"q"
+|2,0,1760421827,,"wq"
 :noh
-|2,0,1759738224,,"noh"
+|2,0,1760414540,,"noh"
+:s
+|2,0,1760401615,,"s"
+:ew
+|2,0,1760401383,,"ew"
+:q
+|2,0,1759816026,,"q"
 :\noh
 |2,0,1759738214,,"\\noh"
-:s
-|2,0,1759736960,,"s"
 :q!
 |2,0,1759385374,,"q!"
 :w
 |2,0,1759032760,,"w"
 
 # Search String History (newest to oldest):
+? \<section_count\>
+|2,1,1760401815,,"\\<section_count\\>"
+? \<0b00010000\>
+|2,1,1759811666,,"\\<0b00010000\\>"
 ? \<arr\>
 |2,1,1759738198,,"\\<arr\\>"
 ? \<int_array\>
@@ -47,261 +53,532 @@
 
 # Registers:
 ""-	CHAR	0
-	 
-|3,1,36,0,1,0,1759385015," "
+	m
+|3,1,36,0,1,0,1760079606,"m"
 
 # File marks:
-'0  14  845  ~/lab1a/lab1Asynthesis.txt
-|4,48,14,845,1759742221,"~/lab1a/lab1Asynthesis.txt"
-'1  379  20  ~/lab1a/pointer.c
-|4,49,379,20,1759741488,"~/lab1a/pointer.c"
-'2  110  13  ~/lab1a/pointer.c
-|4,50,110,13,1759741407,"~/lab1a/pointer.c"
-'3  110  13  ~/lab1a/pointer.c
-|4,51,110,13,1759741407,"~/lab1a/pointer.c"
-'4  110  18  ~/lab1a/pointer.c
-|4,52,110,18,1759741314,"~/lab1a/pointer.c"
-'5  110  18  ~/lab1a/pointer.c
-|4,53,110,18,1759741314,"~/lab1a/pointer.c"
-'6  16  0  ~/lab1a/lab1Asynthesis.txt
-|4,54,16,0,1759741223,"~/lab1a/lab1Asynthesis.txt"
-'7  16  0  ~/lab1a/lab1Asynthesis.txt
-|4,55,16,0,1759741223,"~/lab1a/lab1Asynthesis.txt"
-'8  190  0  ~/lab1a/pointer.c
-|4,56,190,0,1759741055,"~/lab1a/pointer.c"
-'9  190  0  ~/lab1a/pointer.c
-|4,57,190,0,1759741055,"~/lab1a/pointer.c"
+'0  174  16  ~/lab1b/aisle_manager.c
+|4,48,174,16,1760421827,"~/lab1b/aisle_manager.c"
+'1  182  16  ~/lab1b/aisle_manager.c
+|4,49,182,16,1760421790,"~/lab1b/aisle_manager.c"
+'2  182  16  ~/lab1b/aisle_manager.c
+|4,50,182,16,1760421790,"~/lab1b/aisle_manager.c"
+'3  182  38  ~/lab1b/aisle_manager.c
+|4,51,182,38,1760421760,"~/lab1b/aisle_manager.c"
+'4  182  38  ~/lab1b/aisle_manager.c
+|4,52,182,38,1760421760,"~/lab1b/aisle_manager.c"
+'5  237  22  ~/lab1b/aisle_manager.c
+|4,53,237,22,1760421258,"~/lab1b/aisle_manager.c"
+'6  239  22  ~/lab1b/aisle_manager.c
+|4,54,239,22,1760421258,"~/lab1b/aisle_manager.c"
+'7  237  22  ~/lab1b/aisle_manager.c
+|4,55,237,22,1760421258,"~/lab1b/aisle_manager.c"
+'8  239  22  ~/lab1b/aisle_manager.c
+|4,56,239,22,1760421258,"~/lab1b/aisle_manager.c"
+'9  237  22  ~/lab1b/aisle_manager.c
+|4,57,237,22,1760421258,"~/lab1b/aisle_manager.c"
 
 # Jumplist (newest first):
--'  14  845  ~/lab1a/lab1Asynthesis.txt
-|4,39,14,845,1759742221,"~/lab1a/lab1Asynthesis.txt"
--'  16  0  ~/lab1a/lab1Asynthesis.txt
-|4,39,16,0,1759741513,"~/lab1a/lab1Asynthesis.txt"
--'  379  20  ~/lab1a/pointer.c
-|4,39,379,20,1759741488,"~/lab1a/pointer.c"
--'  379  20  ~/lab1a/pointer.c
-|4,39,379,20,1759741488,"~/lab1a/pointer.c"
--'  110  13  ~/lab1a/pointer.c
-|4,39,110,13,1759741420,"~/lab1a/pointer.c"
--'  110  13  ~/lab1a/pointer.c
-|4,39,110,13,1759741420,"~/lab1a/pointer.c"
--'  110  13  ~/lab1a/pointer.c
-|4,39,110,13,1759741407,"~/lab1a/pointer.c"
--'  110  13  ~/lab1a/pointer.c
-|4,39,110,13,1759741407,"~/lab1a/pointer.c"
--'  110  18  ~/lab1a/pointer.c
-|4,39,110,18,1759741314,"~/lab1a/pointer.c"
--'  110  18  ~/lab1a/pointer.c
-|4,39,110,18,1759741314,"~/lab1a/pointer.c"
--'  190  0  ~/lab1a/pointer.c
-|4,39,190,0,1759741289,"~/lab1a/pointer.c"
--'  190  0  ~/lab1a/pointer.c
-|4,39,190,0,1759741289,"~/lab1a/pointer.c"
--'  190  0  ~/lab1a/pointer.c
-|4,39,190,0,1759741289,"~/lab1a/pointer.c"
--'  190  0  ~/lab1a/pointer.c
-|4,39,190,0,1759741289,"~/lab1a/pointer.c"
--'  190  0  ~/lab1a/pointer.c
-|4,39,190,0,1759741289,"~/lab1a/pointer.c"
--'  190  0  ~/lab1a/pointer.c
-|4,39,190,0,1759741289,"~/lab1a/pointer.c"
--'  16  0  ~/lab1a/lab1Asynthesis.txt
-|4,39,16,0,1759741223,"~/lab1a/lab1Asynthesis.txt"
--'  16  0  ~/lab1a/lab1Asynthesis.txt
-|4,39,16,0,1759741223,"~/lab1a/lab1Asynthesis.txt"
--'  16  0  ~/lab1a/lab1Asynthesis.txt
-|4,39,16,0,1759741223,"~/lab1a/lab1Asynthesis.txt"
--'  16  0  ~/lab1a/lab1Asynthesis.txt
-|4,39,16,0,1759741223,"~/lab1a/lab1Asynthesis.txt"
--'  16  0  ~/lab1a/lab1Asynthesis.txt
-|4,39,16,0,1759741223,"~/lab1a/lab1Asynthesis.txt"
--'  16  0  ~/lab1a/lab1Asynthesis.txt
-|4,39,16,0,1759741223,"~/lab1a/lab1Asynthesis.txt"
--'  16  0  ~/lab1a/lab1Asynthesis.txt
-|4,39,16,0,1759741223,"~/lab1a/lab1Asynthesis.txt"
--'  16  0  ~/lab1a/lab1Asynthesis.txt
-|4,39,16,0,1759741223,"~/lab1a/lab1Asynthesis.txt"
--'  11  264  ~/lab1a/lab1Asynthesis.txt
-|4,39,11,264,1759741057,"~/lab1a/lab1Asynthesis.txt"
--'  11  264  ~/lab1a/lab1Asynthesis.txt
-|4,39,11,264,1759741057,"~/lab1a/lab1Asynthesis.txt"
--'  11  264  ~/lab1a/lab1Asynthesis.txt
-|4,39,11,264,1759741057,"~/lab1a/lab1Asynthesis.txt"
--'  11  264  ~/lab1a/lab1Asynthesis.txt
-|4,39,11,264,1759741057,"~/lab1a/lab1Asynthesis.txt"
--'  11  264  ~/lab1a/lab1Asynthesis.txt
-|4,39,11,264,1759741057,"~/lab1a/lab1Asynthesis.txt"
--'  11  264  ~/lab1a/lab1Asynthesis.txt
-|4,39,11,264,1759741057,"~/lab1a/lab1Asynthesis.txt"
--'  11  264  ~/lab1a/lab1Asynthesis.txt
-|4,39,11,264,1759741057,"~/lab1a/lab1Asynthesis.txt"
--'  11  264  ~/lab1a/lab1Asynthesis.txt
-|4,39,11,264,1759741057,"~/lab1a/lab1Asynthesis.txt"
--'  11  264  ~/lab1a/lab1Asynthesis.txt
-|4,39,11,264,1759741057,"~/lab1a/lab1Asynthesis.txt"
--'  190  0  ~/lab1a/pointer.c
-|4,39,190,0,1759741055,"~/lab1a/pointer.c"
--'  190  0  ~/lab1a/pointer.c
-|4,39,190,0,1759741055,"~/lab1a/pointer.c"
--'  190  0  ~/lab1a/pointer.c
-|4,39,190,0,1759741055,"~/lab1a/pointer.c"
--'  190  0  ~/lab1a/pointer.c
-|4,39,190,0,1759741055,"~/lab1a/pointer.c"
--'  14  264  ~/lab1a/lab1Asynthesis.txt
-|4,39,14,264,1759741037,"~/lab1a/lab1Asynthesis.txt"
--'  14  264  ~/lab1a/lab1Asynthesis.txt
-|4,39,14,264,1759741037,"~/lab1a/lab1Asynthesis.txt"
--'  14  264  ~/lab1a/lab1Asynthesis.txt
-|4,39,14,264,1759741037,"~/lab1a/lab1Asynthesis.txt"
--'  14  264  ~/lab1a/lab1Asynthesis.txt
-|4,39,14,264,1759741037,"~/lab1a/lab1Asynthesis.txt"
--'  14  264  ~/lab1a/lab1Asynthesis.txt
-|4,39,14,264,1759741037,"~/lab1a/lab1Asynthesis.txt"
--'  14  264  ~/lab1a/lab1Asynthesis.txt
-|4,39,14,264,1759741037,"~/lab1a/lab1Asynthesis.txt"
--'  14  264  ~/lab1a/lab1Asynthesis.txt
-|4,39,14,264,1759741037,"~/lab1a/lab1Asynthesis.txt"
--'  14  264  ~/lab1a/lab1Asynthesis.txt
-|4,39,14,264,1759741037,"~/lab1a/lab1Asynthesis.txt"
--'  14  264  ~/lab1a/lab1Asynthesis.txt
-|4,39,14,264,1759741037,"~/lab1a/lab1Asynthesis.txt"
--'  14  264  ~/lab1a/lab1Asynthesis.txt
-|4,39,14,264,1759741037,"~/lab1a/lab1Asynthesis.txt"
--'  14  264  ~/lab1a/lab1Asynthesis.txt
-|4,39,14,264,1759741037,"~/lab1a/lab1Asynthesis.txt"
--'  14  264  ~/lab1a/lab1Asynthesis.txt
-|4,39,14,264,1759741037,"~/lab1a/lab1Asynthesis.txt"
--'  14  264  ~/lab1a/lab1Asynthesis.txt
-|4,39,14,264,1759741037,"~/lab1a/lab1Asynthesis.txt"
--'  14  264  ~/lab1a/lab1Asynthesis.txt
-|4,39,14,264,1759741037,"~/lab1a/lab1Asynthesis.txt"
--'  14  264  ~/lab1a/lab1Asynthesis.txt
-|4,39,14,264,1759741037,"~/lab1a/lab1Asynthesis.txt"
--'  14  264  ~/lab1a/lab1Asynthesis.txt
-|4,39,14,264,1759741037,"~/lab1a/lab1Asynthesis.txt"
--'  8  442  ~/lab1a/lab1Asynthesis.txt
-|4,39,8,442,1759740843,"~/lab1a/lab1Asynthesis.txt"
--'  9  442  ~/lab1a/lab1Asynthesis.txt
-|4,39,9,442,1759740843,"~/lab1a/lab1Asynthesis.txt"
--'  8  442  ~/lab1a/lab1Asynthesis.txt
-|4,39,8,442,1759740843,"~/lab1a/lab1Asynthesis.txt"
--'  9  442  ~/lab1a/lab1Asynthesis.txt
-|4,39,9,442,1759740843,"~/lab1a/lab1Asynthesis.txt"
--'  9  442  ~/lab1a/lab1Asynthesis.txt
-|4,39,9,442,1759740843,"~/lab1a/lab1Asynthesis.txt"
--'  8  442  ~/lab1a/lab1Asynthesis.txt
-|4,39,8,442,1759740843,"~/lab1a/lab1Asynthesis.txt"
--'  9  442  ~/lab1a/lab1Asynthesis.txt
-|4,39,9,442,1759740843,"~/lab1a/lab1Asynthesis.txt"
--'  9  442  ~/lab1a/lab1Asynthesis.txt
-|4,39,9,442,1759740843,"~/lab1a/lab1Asynthesis.txt"
--'  8  442  ~/lab1a/lab1Asynthesis.txt
-|4,39,8,442,1759740843,"~/lab1a/lab1Asynthesis.txt"
--'  9  442  ~/lab1a/lab1Asynthesis.txt
-|4,39,9,442,1759740843,"~/lab1a/lab1Asynthesis.txt"
--'  9  442  ~/lab1a/lab1Asynthesis.txt
-|4,39,9,442,1759740843,"~/lab1a/lab1Asynthesis.txt"
--'  8  442  ~/lab1a/lab1Asynthesis.txt
-|4,39,8,442,1759740843,"~/lab1a/lab1Asynthesis.txt"
--'  9  442  ~/lab1a/lab1Asynthesis.txt
-|4,39,9,442,1759740843,"~/lab1a/lab1Asynthesis.txt"
--'  9  442  ~/lab1a/lab1Asynthesis.txt
-|4,39,9,442,1759740843,"~/lab1a/lab1Asynthesis.txt"
--'  8  442  ~/lab1a/lab1Asynthesis.txt
-|4,39,8,442,1759740843,"~/lab1a/lab1Asynthesis.txt"
--'  9  442  ~/lab1a/lab1Asynthesis.txt
-|4,39,9,442,1759740843,"~/lab1a/lab1Asynthesis.txt"
--'  9  442  ~/lab1a/lab1Asynthesis.txt
-|4,39,9,442,1759740843,"~/lab1a/lab1Asynthesis.txt"
--'  8  442  ~/lab1a/lab1Asynthesis.txt
-|4,39,8,442,1759740843,"~/lab1a/lab1Asynthesis.txt"
--'  9  442  ~/lab1a/lab1Asynthesis.txt
-|4,39,9,442,1759740843,"~/lab1a/lab1Asynthesis.txt"
--'  9  442  ~/lab1a/lab1Asynthesis.txt
-|4,39,9,442,1759740843,"~/lab1a/lab1Asynthesis.txt"
--'  8  442  ~/lab1a/lab1Asynthesis.txt
-|4,39,8,442,1759740843,"~/lab1a/lab1Asynthesis.txt"
--'  9  442  ~/lab1a/lab1Asynthesis.txt
-|4,39,9,442,1759740843,"~/lab1a/lab1Asynthesis.txt"
--'  9  442  ~/lab1a/lab1Asynthesis.txt
-|4,39,9,442,1759740843,"~/lab1a/lab1Asynthesis.txt"
--'  8  442  ~/lab1a/lab1Asynthesis.txt
-|4,39,8,442,1759740843,"~/lab1a/lab1Asynthesis.txt"
--'  9  442  ~/lab1a/lab1Asynthesis.txt
-|4,39,9,442,1759740843,"~/lab1a/lab1Asynthesis.txt"
--'  9  442  ~/lab1a/lab1Asynthesis.txt
-|4,39,9,442,1759740843,"~/lab1a/lab1Asynthesis.txt"
--'  190  0  ~/lab1a/pointer.c
-|4,39,190,0,1759740841,"~/lab1a/pointer.c"
--'  190  0  ~/lab1a/pointer.c
-|4,39,190,0,1759740841,"~/lab1a/pointer.c"
--'  190  0  ~/lab1a/pointer.c
-|4,39,190,0,1759740841,"~/lab1a/pointer.c"
--'  190  0  ~/lab1a/pointer.c
-|4,39,190,0,1759740841,"~/lab1a/pointer.c"
--'  190  0  ~/lab1a/pointer.c
-|4,39,190,0,1759740841,"~/lab1a/pointer.c"
--'  190  0  ~/lab1a/pointer.c
-|4,39,190,0,1759740841,"~/lab1a/pointer.c"
--'  190  0  ~/lab1a/pointer.c
-|4,39,190,0,1759740841,"~/lab1a/pointer.c"
--'  190  0  ~/lab1a/pointer.c
-|4,39,190,0,1759740841,"~/lab1a/pointer.c"
--'  110  1  ~/lab1a/pointer.c
-|4,39,110,1,1759740810,"~/lab1a/pointer.c"
--'  110  1  ~/lab1a/pointer.c
-|4,39,110,1,1759740810,"~/lab1a/pointer.c"
--'  110  1  ~/lab1a/pointer.c
-|4,39,110,1,1759740810,"~/lab1a/pointer.c"
--'  110  1  ~/lab1a/pointer.c
-|4,39,110,1,1759740810,"~/lab1a/pointer.c"
--'  110  1  ~/lab1a/pointer.c
-|4,39,110,1,1759740810,"~/lab1a/pointer.c"
--'  110  1  ~/lab1a/pointer.c
-|4,39,110,1,1759740810,"~/lab1a/pointer.c"
--'  110  1  ~/lab1a/pointer.c
-|4,39,110,1,1759740810,"~/lab1a/pointer.c"
--'  110  1  ~/lab1a/pointer.c
-|4,39,110,1,1759740810,"~/lab1a/pointer.c"
--'  110  1  ~/lab1a/pointer.c
-|4,39,110,1,1759740810,"~/lab1a/pointer.c"
--'  110  1  ~/lab1a/pointer.c
-|4,39,110,1,1759740810,"~/lab1a/pointer.c"
--'  110  1  ~/lab1a/pointer.c
-|4,39,110,1,1759740810,"~/lab1a/pointer.c"
--'  110  1  ~/lab1a/pointer.c
-|4,39,110,1,1759740810,"~/lab1a/pointer.c"
--'  9  442  ~/lab1a/lab1Asynthesis.txt
-|4,39,9,442,1759740806,"~/lab1a/lab1Asynthesis.txt"
+-'  174  16  ~/lab1b/aisle_manager.c
+|4,39,174,16,1760421827,"~/lab1b/aisle_manager.c"
+-'  182  16  ~/lab1b/aisle_manager.c
+|4,39,182,16,1760421814,"~/lab1b/aisle_manager.c"
+-'  182  16  ~/lab1b/aisle_manager.c
+|4,39,182,16,1760421790,"~/lab1b/aisle_manager.c"
+-'  182  38  ~/lab1b/aisle_manager.c
+|4,39,182,38,1760421760,"~/lab1b/aisle_manager.c"
+-'  237  22  ~/lab1b/aisle_manager.c
+|4,39,237,22,1760421279,"~/lab1b/aisle_manager.c"
+-'  237  22  ~/lab1b/aisle_manager.c
+|4,39,237,22,1760421279,"~/lab1b/aisle_manager.c"
+-'  237  22  ~/lab1b/aisle_manager.c
+|4,39,237,22,1760421279,"~/lab1b/aisle_manager.c"
+-'  239  22  ~/lab1b/aisle_manager.c
+|4,39,239,22,1760421258,"~/lab1b/aisle_manager.c"
+-'  239  22  ~/lab1b/aisle_manager.c
+|4,39,239,22,1760421258,"~/lab1b/aisle_manager.c"
+-'  239  22  ~/lab1b/aisle_manager.c
+|4,39,239,22,1760421258,"~/lab1b/aisle_manager.c"
+-'  100  0  ~/lab1b/aisle_manager.c
+|4,39,100,0,1760420979,"~/lab1b/aisle_manager.c"
+-'  102  0  ~/lab1b/aisle_manager.c
+|4,39,102,0,1760420979,"~/lab1b/aisle_manager.c"
+-'  100  0  ~/lab1b/aisle_manager.c
+|4,39,100,0,1760420979,"~/lab1b/aisle_manager.c"
+-'  102  0  ~/lab1b/aisle_manager.c
+|4,39,102,0,1760420979,"~/lab1b/aisle_manager.c"
+-'  100  0  ~/lab1b/aisle_manager.c
+|4,39,100,0,1760420979,"~/lab1b/aisle_manager.c"
+-'  102  0  ~/lab1b/aisle_manager.c
+|4,39,102,0,1760420979,"~/lab1b/aisle_manager.c"
+-'  25  441  ~/lab1b/lab1Bsynthesis.txt
+|4,39,25,441,1760420965,"~/lab1b/lab1Bsynthesis.txt"
+-'  25  441  ~/lab1b/lab1Bsynthesis.txt
+|4,39,25,441,1760420965,"~/lab1b/lab1Bsynthesis.txt"
+-'  25  441  ~/lab1b/lab1Bsynthesis.txt
+|4,39,25,441,1760420965,"~/lab1b/lab1Bsynthesis.txt"
+-'  25  441  ~/lab1b/lab1Bsynthesis.txt
+|4,39,25,441,1760420965,"~/lab1b/lab1Bsynthesis.txt"
+-'  25  441  ~/lab1b/lab1Bsynthesis.txt
+|4,39,25,441,1760420965,"~/lab1b/lab1Bsynthesis.txt"
+-'  25  441  ~/lab1b/lab1Bsynthesis.txt
+|4,39,25,441,1760420965,"~/lab1b/lab1Bsynthesis.txt"
+-'  25  441  ~/lab1b/lab1Bsynthesis.txt
+|4,39,25,441,1760420965,"~/lab1b/lab1Bsynthesis.txt"
+-'  25  441  ~/lab1b/lab1Bsynthesis.txt
+|4,39,25,441,1760420965,"~/lab1b/lab1Bsynthesis.txt"
+-'  25  441  ~/lab1b/lab1Bsynthesis.txt
+|4,39,25,441,1760420965,"~/lab1b/lab1Bsynthesis.txt"
+-'  25  441  ~/lab1b/lab1Bsynthesis.txt
+|4,39,25,441,1760420965,"~/lab1b/lab1Bsynthesis.txt"
+-'  25  441  ~/lab1b/lab1Bsynthesis.txt
+|4,39,25,441,1760420965,"~/lab1b/lab1Bsynthesis.txt"
+-'  25  441  ~/lab1b/lab1Bsynthesis.txt
+|4,39,25,441,1760420965,"~/lab1b/lab1Bsynthesis.txt"
+-'  25  441  ~/lab1b/lab1Bsynthesis.txt
+|4,39,25,441,1760420965,"~/lab1b/lab1Bsynthesis.txt"
+-'  25  441  ~/lab1b/lab1Bsynthesis.txt
+|4,39,25,441,1760420965,"~/lab1b/lab1Bsynthesis.txt"
+-'  25  441  ~/lab1b/lab1Bsynthesis.txt
+|4,39,25,441,1760420965,"~/lab1b/lab1Bsynthesis.txt"
+-'  25  441  ~/lab1b/lab1Bsynthesis.txt
+|4,39,25,441,1760420965,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419969,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419969,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419969,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419969,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419969,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419969,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419969,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419969,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419969,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419969,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419969,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419969,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419969,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419969,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419969,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419969,"~/lab1b/lab1Bsynthesis.txt"
+-'  97  0  ~/lab1b/aisle_manager.c
+|4,39,97,0,1760419967,"~/lab1b/aisle_manager.c"
+-'  99  0  ~/lab1b/aisle_manager.c
+|4,39,99,0,1760419967,"~/lab1b/aisle_manager.c"
+-'  97  0  ~/lab1b/aisle_manager.c
+|4,39,97,0,1760419967,"~/lab1b/aisle_manager.c"
+-'  99  0  ~/lab1b/aisle_manager.c
+|4,39,99,0,1760419967,"~/lab1b/aisle_manager.c"
+-'  97  0  ~/lab1b/aisle_manager.c
+|4,39,97,0,1760419967,"~/lab1b/aisle_manager.c"
+-'  99  0  ~/lab1b/aisle_manager.c
+|4,39,99,0,1760419967,"~/lab1b/aisle_manager.c"
+-'  99  0  ~/lab1b/aisle_manager.c
+|4,39,99,0,1760419967,"~/lab1b/aisle_manager.c"
+-'  121  0  ~/lab1b/aisle_manager.c
+|4,39,121,0,1760419900,"~/lab1b/aisle_manager.c"
+-'  118  0  ~/lab1b/aisle_manager.c
+|4,39,118,0,1760419900,"~/lab1b/aisle_manager.c"
+-'  123  0  ~/lab1b/aisle_manager.c
+|4,39,123,0,1760419900,"~/lab1b/aisle_manager.c"
+-'  120  0  ~/lab1b/aisle_manager.c
+|4,39,120,0,1760419900,"~/lab1b/aisle_manager.c"
+-'  121  0  ~/lab1b/aisle_manager.c
+|4,39,121,0,1760419900,"~/lab1b/aisle_manager.c"
+-'  118  0  ~/lab1b/aisle_manager.c
+|4,39,118,0,1760419900,"~/lab1b/aisle_manager.c"
+-'  123  0  ~/lab1b/aisle_manager.c
+|4,39,123,0,1760419900,"~/lab1b/aisle_manager.c"
+-'  120  0  ~/lab1b/aisle_manager.c
+|4,39,120,0,1760419900,"~/lab1b/aisle_manager.c"
+-'  121  0  ~/lab1b/aisle_manager.c
+|4,39,121,0,1760419900,"~/lab1b/aisle_manager.c"
+-'  118  0  ~/lab1b/aisle_manager.c
+|4,39,118,0,1760419900,"~/lab1b/aisle_manager.c"
+-'  123  0  ~/lab1b/aisle_manager.c
+|4,39,123,0,1760419900,"~/lab1b/aisle_manager.c"
+-'  120  0  ~/lab1b/aisle_manager.c
+|4,39,120,0,1760419900,"~/lab1b/aisle_manager.c"
+-'  120  0  ~/lab1b/aisle_manager.c
+|4,39,120,0,1760419900,"~/lab1b/aisle_manager.c"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419890,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419890,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419890,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419890,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419890,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419890,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419890,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419890,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419890,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419890,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419890,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419890,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419890,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419890,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419890,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419890,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419890,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419890,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419890,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419890,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419890,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419890,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419890,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419890,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419890,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419890,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419890,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419890,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419890,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419890,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419890,"~/lab1b/lab1Bsynthesis.txt"
+-'  20  130  ~/lab1b/lab1Bsynthesis.txt
+|4,39,20,130,1760419890,"~/lab1b/lab1Bsynthesis.txt"
 
 # History of marks within files (newest to oldest):
 
-> ~/lab1a/lab1Asynthesis.txt
-	*	1759742219	0
-	"	14	845
-	^	14	846
-	.	14	845
+> ~/lab1b/aisle_manager.c
+	*	1760421825	0
+	"	174	16
+	^	182	17
+	.	182	16
+	+	201	64
+	+	202	38
+	+	201	49
+	+	200	118
+	+	200	74
+	+	200	119
+	+	201	42
+	+	201	0
+	+	222	10
+	+	235	13
+	+	211	51
+	+	220	0
+	+	216	29
+	+	219	12
+	+	222	13
+	+	221	0
+	+	217	3
+	+	216	27
+	+	218	25
+	+	214	28
+	+	235	45
+	+	235	13
+	+	244	2
+	+	241	17
+	+	240	16
+	+	238	1
+	+	236	0
+	+	240	30
+	+	243	0
+	+	241	33
+	+	238	71
+	+	240	31
+	+	238	83
+	+	240	45
+	+	240	91
+	+	241	86
+	+	240	36
+	+	238	36
+	+	240	0
+	+	241	0
+	+	242	0
+	+	237	26
+	+	239	71
+	+	241	0
+	+	256	113
+	+	264	53
+	+	258	1
+	+	256	104
+	+	258	104
+	+	256	104
+	+	258	80
+	+	256	166
+	+	258	93
+	+	258	41
+	+	258	102
+	+	258	55
+	+	264	65
+	+	258	0
+	+	259	0
+	+	258	51
+	+	257	20
+	+	261	0
+	+	260	13
+	+	263	26
+	+	257	38
+	+	260	32
+	+	263	44
+	+	260	21
+	+	257	38
+	+	285	70
+	+	282	2
+	+	278	21
+	+	278	19
+	+	281	0
+	+	303	39
+	+	302	0
+	+	89	17
+	+	98	33
+	+	124	60
+	+	138	30
+	+	149	67
+	+	201	48
+	+	215	33
+	+	217	22
+	+	238	33
+	+	278	23
+	+	279	19
+	+	283	72
+	+	299	23
+	+	300	19
+	+	303	47
+	+	187	78
+	+	146	51
+	+	148	15
+	+	134	19
+	+	137	36
+	+	140	7
+	+	143	15
+	+	70	0
+	+	182	16
+	a	138	2
+
+> ~/lab1b/lab1Bsynthesis.txt
+	*	1760420956	0
+	"	25	441
+	^	25	442
+	.	25	442
 	+	4	21
 	+	5	16
-	+	8	9
+	+	9	99
+	+	11	157
+	+	13	120
+	+	15	403
+	+	20	577
+	+	20	454
+	+	20	593
+	+	25	442
+
+> ~/lab1b/store_client.c
+	*	1760417486	0
+	"	162	30
+	^	162	31
+	.	162	29
+	+	54	164
+	+	54	232
+	+	52	68
+	+	57	95
+	+	54	165
+	+	52	13
+	+	57	33
+	+	54	157
+	+	54	100
+	+	57	85
+	+	55	0
+	+	54	0
+	+	58	0
+	+	50	19
+	+	53	38
+	+	56	41
+	+	46	21
+	+	49	3
+	+	48	25
+	+	91	2
+	+	76	51
+	+	74	45
+	+	90	0
+	+	84	0
+	+	82	54
+	+	81	70
+	+	83	64
+	+	87	6
+	+	82	0
+	+	89	0
+	+	87	39
+	+	72	0
+	+	71	15
+	+	83	8
+	+	82	55
+	+	87	21
+	+	87	45
+	+	105	13
+	+	88	7
+	+	87	61
+	+	85	0
+	+	78	22
+	+	14	17
+	+	78	17
+	+	83	26
+	+	93	42
+	+	104	41
+	+	104	40
+	+	100	0
+	+	99	16
+	+	101	0
+	+	104	41
+	+	105	0
+	+	103	32
+	+	80	0
+	+	86	34
+	+	79	45
+	+	86	50
+	+	94	0
+	+	93	0
+	+	94	0
+	+	95	68
+	+	102	66
+	+	114	2
+	+	88	0
+	+	114	22
+	+	132	2
+	+	131	4
+	+	131	0
+	+	113	90
+	+	114	0
+	+	130	0
+	+	129	0
+	+	114	0
+	+	125	72
+	+	128	41
+	+	124	29
+	+	127	24
+	+	117	11
+	+	115	9
+	+	128	35
+	+	161	2
+	+	145	45
+	+	147	25
+	+	145	33
+	+	147	54
+	+	148	0
+	+	160	0
+	+	159	6
+	+	158	8
+	+	157	6
+	+	155	8
+	+	154	6
+	+	150	4
+	+	148	2
+	+	150	30
+	+	153	0
+	+	151	34
+	+	158	31
+	+	162	29
+
+> ~/test.c
+	*	1759816024	0
+	"	18	31
+	^	18	32
+	.	18	31
 	+	9	0
-	+	8	442
-	+	11	265
-	+	11	175
-	+	11	411
-	+	13	0
-	+	10	0
-	+	7	0
-	+	16	0
-	+	8	185
-	+	8	284
-	+	8	704
-	+	8	537
-	+	14	845
+	+	6	9
+	+	22	0
+	+	19	0
+	+	17	2
+	+	21	2
+	+	17	31
+	+	2	0
+	+	1	0
+	+	10	1
+	+	18	1
+	+	17	11
+	+	18	29
+	+	6	20
+	+	18	30
+	+	8	1
+	+	7	35
+	+	17	0
+	+	11	84
+	+	15	0
+	+	4	40
+	+	13	65
+	+	20	0
+	+	19	36
+	+	18	3
+	+	19	11
+	+	13	66
+	+	19	11
+	+	13	67
+	+	19	3
+	+	18	25
+	+	7	55
+	+	18	37
+	+	8	0
+	+	18	3
+	+	19	2
+	+	13	58
+	+	13	57
+	+	13	69
+	+	19	33
+	+	13	88
+	+	13	74
+	+	13	94
+	+	13	81
+	+	19	36
+	+	13	58
+	+	14	1
+	+	13	102
+	+	19	39
+	+	13	115
+	+	14	53
+	+	13	107
+	+	14	31
+	+	19	39
+	+	14	46
+	+	14	0
+	+	18	34
+	+	19	40
+	+	18	31
 
 > ~/lab1a/pointer.c
-	*	1759741487	0
-	"	379	20
+	*	1759791568	0
+	"	71	0
 	^	379	21
 	.	379	21
 	+	263	53
@@ -406,8 +683,8 @@
 	+	379	21
 
 > ~/lab0/lab0.c
-	*	1759032825	0
-	"	56	0
+	*	1759791284	0
+	"	328	0
 	^	56	0
 	.	56	0
 	+	78	34
@@ -438,6 +715,29 @@
 	+	56	0
 	+	55	0
 	+	56	0
+
+> ~/lab1a/lab1Asynthesis.txt
+	*	1759742219	0
+	"	14	845
+	^	14	846
+	.	14	845
+	+	4	21
+	+	5	16
+	+	8	9
+	+	9	0
+	+	8	442
+	+	11	265
+	+	11	175
+	+	11	411
+	+	13	0
+	+	10	0
+	+	7	0
+	+	16	0
+	+	8	185
+	+	8	284
+	+	8	704
+	+	8	537
+	+	14	845
 
 > ~/demo/file.txt
 	*	1759014119	0

@@ -1,87 +1,3 @@
-echo $0
-echo test > file.txt
-ls
-cat file.txt 
-exit
-ls
-pwd
-exit
-ls
-mkdir demo
-ls
-cd demo/
-ls
-touch file.txt
-ls
-vim file.txt 
-cat file.txt 
-vim file.txt 
-cat file.txt 
-vim file.txt 
-cat file.txt 
-vim file.txt 
-cat file.txt 
-pwd
-exit
-ls
-cd demo/
-ls
-cat file.txt 
-vim file.txt 
-cat file.txt 
-pwd
-exit
-ls
-lab0
-mkdir lab0
-ls
-cd lab0/
-wget https://courses.cs.washington.edu/courses/cse351/25au/labs/lab0.c
-ls
-gcc -v
-gcc -g -Wall -std=c18 -o lab0 lab0.c 
-ls
-./lab0 1
-./lab0 2
-./lab0 3
-./lab0 4
-./lab0 5
-tree
-cd ..
-ls
-tree
-cd lab0/
-ls
-vim lab0.c 
-gcc -g -Wall -std=c18 -o lab0 lab0.c 
-./lab0 1
-vim lab0.c 
-gcc -g -Wall -std=c18 -o lab0 lab0.c 
-./lab0 1
-vim lab0.c 
-gcc -g -Wall -std=c18 -o lab0 lab0.c 
-./lab0 1
-vim lab0.c 
-./lab0 2
-vim lab0.c 
-gcc -g -Wall -std=c18 -o lab0 lab0.c 
-./lab0 2
-vim lab0.c 
-gcc -g -Wall -std=c18 -o lab0 lab0.c 
-./lab0 2
-vim lab0.c 
-gcc -g -Wall -std=c18 -o lab0 lab0.c 
-vim lab0.c 
-./lab0 2
-vim lab0.c 
-gcc -g -Wall -std=c18 -o lab0 lab0.c 
-./lab0 2
-vim lab0.c 
-gcc -g -Wall -std=c18 -o lab0 lab0.c 
-vim lab0.c 
-gcc -g -Wall -std=c18 -o lab0 lab0.c 
-./lab0 2
-vim lab0.c 
 gcc -g -Wall -std=c18 -o lab0 lab0.c 
 vim lab0.c 
 gcc -g -Wall -std=c18 -o lab0 lab0.c 
@@ -580,4 +496,505 @@ make
 ./ptest 
 python3 dlc.py 
 vim lab1Asynthesis.txt 
+exit
+ls
+cd demo/
+ls
+cd ..
+cd lab1a/
+ls
+cat Makefile 
+cd ..
+ls
+touch test.c
+vim test.c 
+gcc -Wall -o test test.c 
+gcc -o test test.c 
+ls
+gcc -g -Wall -std=c18 -o test test.c
+vim test.c 
+cd lab0/
+ls
+vim lab0.c 
+cd ..
+vim test.c 
+gcc -o test test.c 
+vim test.c 
+gcc -o test test.c 
+./test 
+vim test.c 
+gcc -o test test.c 
+vim test.c 
+gcc -o test test.c 
+vim test.c 
+cd lab1a/
+vim pointer.c 
+cd
+vim test.c 
+gcc -o test test.c 
+./test 
+vim test.c 
+gcc -o test test.c 
+./test 
+vim test.c 
+gcc -o test test.c 
+./test 
+vim test.c 
+gcc -o test test.c 
+./test 
+vim test.c 
+gcc -o test test.c 
+./test 
+vim test.c 
+gcc -o test test.c 
+vim test.c 
+./test 
+vim test.c 
+gcc -o test test.c 
+./test 
+vim test.c 
+gcc -o test test.c 
+./test 
+vim test.c 
+ls
+vim test.c 
+ls
+vim test.c 
+gcc -o test test.c 
+vim test.c 
+ls
+ls -a
+rm -rf .test.c.swp 
+vim test.c 
+gcc -o test test.c 
+vim test.c 
+gcc -o test test.c 
+./test 
+vim test.c 
+gcc -o test test.c 
+./test 
+vim test.c 
+gcc -o test test.c 
+./test 
+vim test.c 
+gcc -o test test.c 
+./test 
+vim test.c 
+gcc -o test test.c 
+./test 
+vim test.c 
+gcc -o test test.c 
+./test 
+vim test.c 
+gcc -o test test.c 
+./test 
+vim test.c 
+gcc -o test test.c 
+./test 
+vim test.c 
+gcc -o test test.c 
+./test 
+vim test.c 
+gcc -o test test.c 
+vim test.c 
+./test 
+vim test.c 
+gcc -o test test.c 
+vim test.c 
+gcc -o test test.c 
+./test 
+vim test.c 
+gcc -o test test.c 
+./test 
+vim test.c 
+gcc -o test test.c 
+./test 
+vim test.c 
+gcc -o test test.c 
+./test 
+vim test.c 
+gcc -o test test.c 
+./test 
+vim test.c 
+gcc -o test test.c 
+./test 
+vim test.c 
+gcc -o test test.c 
+./test 
+vim test.c 
+gcc -o test test.c 
+vim test.c 
+gcc -o test test.c 
+./test 
+vim test.c 
+gcc -o test test.c 
+./test 
+vim test.c 
+gcc -o test test.c 
+./test 
+vim test.c 
+gcc -o test test.c 
+./test 
+vim test.c 
+gcc -o test test.c 
+./test 
+vim test.c 
+gcc -o test test.c 
+./test 
+vim test.c 
+gcc -o test test.c 
+./test 
+vim test.c 
+exit
+vim test.c 
+gcc -o test test.c 
+./test 
+vim test.c 
+gcc -o test test.c 
+./test 
+vim test.c 
+gcc -o test test.c 
+vim test.c 
+./test 
+ls
+mkdir hw5
+mv test test.c hw5/
+ls
+exit
+ls
+wget https://courses.cs.washington.edu/courses/cse351/25au/labs/lab1b.tar.gz
+tar xzvf lab1b.tar.gz 
+ls
+rm -rf lab1b.tar.gz 
+cd lab1b/
+ls
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+make
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+exit
+ls
+cd lab1b
+lls
+ls
+make
+./aisle_test 
+vim aisle_manager.c 
+make
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+make
+vim aisle_manager.c 
+./aisle_test 
+vim aisle_manager.c 
+ls
+cd lab1b/
+ls
+vim store_client.c 
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+./aisle_test 
+make
+./aisle_test 
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+./aisle_test 
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+make
+./aisle_test 
+vim aisle_manager.c 
+make
+./aisle_test 
+ls
+vim store_client.c
+vim aisle_manager.c 
+vim store_client.c
+make
+vim store_client.c
+make
+vim store_client.c
+make
+vim store_client.c
+make
+./store_test 
+vim store_client.c
+make
+./store_test 
+vim store_client.c
+make
+./store_test 
+vim store_client.c
+make
+./store_test 
+vim store_client.c
+make
+./store_test 
+vim store_client.c
+make
+./store_test 
+vim store_client.c
+make
+vim store_client.c
+make
+vim store_client.c
+make
+vim store_client.c
+ls
+vim aisle_manager.c 
+vim store_client.c
+make
+vim store_client.c
+make
+vim store_client.c
+make
+vim store_client.c
+make
+vim store_client.c
+make
+vim store_client.c
+make
+vim store_client.c
+cd lab1b/
+ls
+make
+vim store_client.c
+make
+./store_test 
+vim store_client.c
+make
+./store_test 
+vim store_client.c
+make
+./store_test 
+vim store_client.c
+./store_test 
+make
+./store_test 
+cd lab1b/
+vim store_client.c
+make
+vim store_client.c
+make
+./store_test 
+vim store_client.c
+./store_test 
+vim store_client.c
+make
+vim store_client.c
+make
+vim store_client.c
+make
+./store_test 
+vim store_client.c
+make clean
+./store_test 
+make
+./store_test 
+./store_test -f refill_from_stockroom
+vim store_client.c
+./store_test -f refill_from_stockroom
+make
+./store_test -f refill_from_stockroom
+vim store_client.c
+make
+./store_test -f refill_from_stockroom
+vim store_client.c
+make
+./store_test -f refill_from_stockroom
+vim store_client.c
+cd lab1b
+make
+./store_test -f refill_from_stockroom
+vim store_client.c
+make
+./store_test -f refill_from_stockroom
+vim store_client.c
+make
+./store_test -f refill_from_stockroom
+vim store_client.c
+make
+./store_test -f refill_from_stockroom
+vim store_client.c
+./store_test -f refill_from_stockroom
+make
+./store_test -f refill_from_stockroom
+vim store_client.c
+make
+./store_test -f refill_from_stockroom
+vim store_client.c
+make
+./store_test
+./store_test -f fulfill_order
+vim store_client.c
+make
+vim store_client.c
+make
+./store_test -f fulfill_order
+vim store_client.c
+make
+./store_test -f fulfill_order
+vim store_client.c
+make
+./store_test -f fulfill_order
+vim store_client.c
+make
+./store_test -f fulfill_order
+vim store_client.c
+make
+./store_test -f fulfill_order
+vim store_client.c
+make
+./store_test -f fulfill_order
+vim store_client.c
+make
+vim store_client.c
+make
+vim store_client.c
+make
+vim store_client.c
+vim aisle_manager.c
+vim store_client.c
+make
+vim aisle_manager.c
+vim store_client.c
+make
+vim aisle_manager.c
+vim store_client.c
+make
+./store_test -f fulfill_order
+./store_test
+./store_test -f empty_section_with_id
+vim store_client.c
+./store_test -f empty_section_with_id
+vim store_client.c
+make
+./store_test -f empty_section_with_id
+vim store_client.c
+make
+./store_test -f empty_section_with_id
+vim store_client.c
+make
+./store_test -f empty_section_with_id
+vim store_client.c
+make
+./store_test -f empty_section_with_id
+vim store_client.c
+make
+./store_test -f empty_section_with_id
+vim store_client.c
+make
+./store_test
+./aisle_test 
+python3 testall.py 
+ls
+vim lab1Bsynthesis.txt 
+vim aisle_manager.c
+vim lab1Bsynthesis.txt 
+vim aisle_manager.c
+make
+./aisle_test 
+python3 testall.py 
+vim aisle_manager.c
+make
+python3 testall.py 
+vim aisle_manager.c
+python3 testall.py 
+make
+./aisle_test 
+vim aisle_manager.c
 exit
